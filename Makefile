@@ -1,4 +1,5 @@
-CFLAGS= -g -Wall -Werror -DDEBUG_ARBRE
+CFLAGS= -g -Wall -Werror
+#CFLAGS= -g -Wall -Werror -DDEBUG_ARBRE
 CC=gcc
 
 all: huff_encode huff_decode
